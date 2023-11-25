@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: #eeeeeec9;
+height: 10000px;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    box-shadow: 0px 1.64744px 8.2372px 0px rgba(0, 0, 0, 0.10);
+    padding: 10px;
+
+}
+a{
+    font-family: 'Inter', sans-serif;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+
+    width: calc(100% - 120px);
+    margin: auto;
+}
+a{
+text-decoration-line: none;
+}
+ul li{
+    list-style-type: none;
+}
+.active{
+    font-weight: 800;
+}
+.row .logo{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.logo img{
+    width: 20px;
+}
+.logo a{
+    color: #545BE8;
+    font-family: Roboto;
+
+}
+ .row ul  {
+    display: flex;
+    flex-wrap: wrap;
+    gap:25px;
+
+}
+header nav ul li a{
+    color: #101928;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+   font-weight: 400;
+    
+    line-height: normal;
+    
+
+}
+.row ul li a .active{
+    font-weight: 800px;
+
+}
+header .auth{
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+header .auth a{
+    padding: 5.354px 30px;
+    border-radius: 9px;
+    font-family: Inter;
+    font-size: 15px;
+  
+
+}
+header .auth .login{
+ color: #545BE8;
+background-color: #fff;
+font-weight: 700;
+border: 2px solid #545BE8;
+}
+header .auth .Register{
+    color: #FFF;
+    font-weight: 700;
+background-color: #545BE8;
+
+
+
+}
